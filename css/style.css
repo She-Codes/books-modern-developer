@@ -1,0 +1,135 @@
+/* REFERENCE
+================================ */
+/**
+ * Included Font Weights and Styles:
+ * Roboto: 400,100,300,500,700,300italic
+ * Roboto Slab: 400,300,700,100
+ */
+/* END REFERENCE
+================================ */
+/* VARIABLES
+================================ */
+/** Fonts */
+/* END VARIABLES
+================================ */
+/* RESET
+================================ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* END RESET
+================================ */
+/* DEFAULT STYLES
+================================ */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background: #F5F5F5; }
+
+/* Apply to parent container of floated elements */
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* END DEFAULT STYLES
+================================ */
+/* HEADER
+================================ */
+.site-header {
+  background: url("../images/books_header_bg.jpg") no-repeat fixed; }
+  .site-header .wrapper {
+    width: 50%;
+    margin: 0 auto; }
+
+.logo {
+  width: 78px; }
+  .logo img {
+    width: 100%;
+    height: auto; }
+
+.site-title {
+  display: block;
+  text-decoration: none; }
+  .site-title div {
+    display: inline-block;
+    vertical-align: middle; }
+  .site-title h1 {
+    color: #FFF;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300; }
+    .site-title h1 span {
+      font-weight: 400; }
+  .site-title h2 {
+    color: #708B0B; }
+
+.search {
+  position: relative; }
+  .search input {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: 0;
+    outline: 0;
+    background: #CEDD9A;
+    color: #708B0B; }
+  .search input::-webkit-input-placeholder {
+    color: #708B0B; }
+  .search ::-webkit-input-placeholder {
+    color: #708B0B; }
+  .search ::-moz-placeholder {
+    color: #708B0B; }
+  .search :-ms-input-placeholder {
+    color: #708B0B; }
+  .search :-moz-placeholder {
+    color: #708B0B; }
+
+/* END HEADER
+================================ */

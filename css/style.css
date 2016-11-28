@@ -84,31 +84,38 @@ body {
 /* HEADER
 ================================ */
 .site-header {
-  background: url("../images/books_header_bg.jpg") no-repeat fixed; }
+  background: url("../images/books_header_bg.jpg") no-repeat fixed;
+  padding: 37px 0 53px; }
   .site-header .wrapper {
     width: 50%;
+    max-width: 668px;
     margin: 0 auto; }
 
 .logo {
-  width: 78px; }
+  width: 78px;
+  margin-right: 15px; }
   .logo img {
     width: 100%;
     height: auto; }
 
 .site-title {
   display: block;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-bottom: 45px; }
   .site-title div {
     display: inline-block;
     vertical-align: middle; }
   .site-title h1 {
     color: #FFF;
     font-family: "Roboto Slab", sans-serif;
-    font-weight: 300; }
+    font-weight: 100;
+    font-size: 1.9rem;
+    padding-bottom: .3em; }
     .site-title h1 span {
-      font-weight: 400; }
+      font-weight: 300; }
   .site-title h2 {
-    color: #708B0B; }
+    color: #708B0B;
+    font-weight: 300; }
 
 .search {
   position: relative; }

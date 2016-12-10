@@ -105,12 +105,11 @@ body {
 /* HEADER
 ================================ */
 .site-header {
-  background: url("../images/books_header_bg.jpg") no-repeat fixed;
+  background: url("../images/books_header_bg.jpg") repeat-x fixed;
   padding-top: 37px;
   height: 264px;
 
   .wrapper {
-    width: 50%;
     max-width: 668px;
     margin: 0 auto;
   }
@@ -241,7 +240,7 @@ nav {
   }
 
   .active {
-    color: #C1E235;
+    color: #C1E235; 
   }
 }
 

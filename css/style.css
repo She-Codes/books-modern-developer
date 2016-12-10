@@ -85,7 +85,8 @@ body {
 ================================ */
 .site-header {
   background: url("../images/books_header_bg.jpg") no-repeat fixed;
-  padding: 37px 0 53px; }
+  padding-top: 37px;
+  height: 264px; }
   .site-header .wrapper {
     width: 50%;
     max-width: 668px;
@@ -101,7 +102,7 @@ body {
 .site-title {
   display: block;
   text-decoration: none;
-  margin-bottom: 45px; }
+  margin-bottom: 42px; }
   .site-title div {
     display: inline-block;
     vertical-align: middle; }
@@ -158,18 +159,23 @@ body {
 ================================ */
 /* NAV
 ================================ */
-nav ul {
-  text-align: center; }
-nav li {
-  display: inline-block;
-  padding-right: 1.7em; }
-  nav li:last {
-    padding-right: none; }
-nav a {
-  text-decoration: none;
-  color: #969696;
-  font-size: 1.1rem;
-  font-weight: 300; }
+nav {
+  padding: 1.25em 0;
+  background: #FFF; }
+  nav ul {
+    text-align: center; }
+  nav li {
+    display: inline-block;
+    padding-right: 1.7em; }
+    nav li:last {
+      padding-right: none; }
+  nav a {
+    text-decoration: none;
+    color: #969696;
+    font-size: 1.1rem;
+    font-weight: 300; }
+  nav .active {
+    color: #C1E235; }
 
 /* END NAV
 ================================ */

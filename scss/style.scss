@@ -106,7 +106,8 @@ body {
 ================================ */
 .site-header {
   background: url("../images/books_header_bg.jpg") no-repeat fixed;
-  padding: 37px 0 53px;
+  padding-top: 37px;
+  height: 264px;
 
   .wrapper {
     width: 50%;
@@ -128,7 +129,7 @@ body {
 .site-title {
   display: block;
   text-decoration: none;
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 
   div {
     display: inline-block;
@@ -216,6 +217,9 @@ body {
 /* NAV
 ================================ */
 nav {
+  padding: 1.25em 0;
+  background: #FFF;
+
   ul {
     text-align: center;
   }
@@ -234,6 +238,10 @@ nav {
     color: #969696;
     font-size: 1.1rem;
     font-weight: 300;
+  }
+
+  .active {
+    color: #C1E235;
   }
 }
 

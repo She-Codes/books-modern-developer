@@ -2,6 +2,15 @@ var entireData: {
 
 siteName: "Books. Modern Developer",
 
+easyToFollowHeader: "Easy to follow",
+comprehensiveHeader: "Comprehensive",
+enoughExamplesHeader: "Enough Examples",
+
+rateTheBookHeader: "Rate the Book",
+tableOfContentsHeader: "Table of Contents",
+searchInsideHeader: "Search Inside",
+bookMarkItKicker: "Bookmark It"
+
 books: [
 
 {

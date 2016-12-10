@@ -9,3 +9,7 @@ next commit, I am going to clean it up.
 
  @wehelie
 ![](images/footer.png)
+
+### Card Section 
+
+rulep: Worked on HTML and CSS of Card Section of project for sections: 1, 2, and 4. Currently working on Section 3. 

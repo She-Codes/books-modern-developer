@@ -178,3 +178,50 @@ nav {
 
 /* END NAV
 ================================ */
+/* FOOTER
+================================ */
+footer {
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  background: #424242; }
+
+.footer-logo-container-left {
+  width: 277px;
+  height: 52px;
+  margin-top: 50px;
+  margin-left: 100px; }
+
+.footer-logo-container-right {
+  width: 320px;
+  height: 52px;
+  margin-top: -34px;
+  float: right;
+  margin-right: 100px; }
+
+img.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+  float: left; }
+
+h4.footer-logo-left {
+  float: left;
+  padding-top: 19px;
+  width: 236px;
+  height: 46px; }
+
+p.footer-logo-right {
+  float: right;
+  margin-right: 100px;
+  line-height: 20px; }
+
+p.white,
+span.white {
+  color: white; }
+
+.gray {
+  color: grey; }
+
+/* END FOOTER
+================================ */

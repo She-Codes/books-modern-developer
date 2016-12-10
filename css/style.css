@@ -119,6 +119,9 @@ body {
 
 .search {
   position: relative; }
+  .search input, .search button {
+    height: 56px;
+    border-radius: 2px; }
   .search input {
     display: block;
     width: 100%;
@@ -126,7 +129,9 @@ body {
     border: 0;
     outline: 0;
     background: #CEDD9A;
-    color: #708B0B; }
+    color: #708B0B;
+    font-size: 1.1rem;
+    font-weight: 300; }
   .search input::-webkit-input-placeholder {
     color: #708B0B; }
   .search ::-webkit-input-placeholder {
@@ -137,6 +142,34 @@ body {
     color: #708B0B; }
   .search :-moz-placeholder {
     color: #708B0B; }
+  .search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 66px;
+    border: 0;
+    background: #FFF; }
+    .search button i {
+      font-size: 1.6rem;
+      color: #C1E235; }
 
 /* END HEADER
+================================ */
+/* NAV
+================================ */
+nav ul {
+  text-align: center; }
+nav li {
+  display: inline-block;
+  padding-right: 1.7em; }
+  nav li:last {
+    padding-right: none; }
+nav a {
+  text-decoration: none;
+  color: #969696;
+  font-size: 1.1rem;
+  font-weight: 300; }
+
+/* END NAV
 ================================ */

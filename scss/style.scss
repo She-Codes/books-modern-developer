@@ -156,6 +156,11 @@ body {
 .search {
   position: relative;
 
+  input, button {
+    height: 56px;
+    border-radius: 2px;
+  }
+
   input {
     display: block;
     width: 100%;
@@ -164,6 +169,8 @@ body {
     outline: 0;
     background: #CEDD9A;
     color: #708B0B;
+    font-size: 1.1rem;
+    font-weight: 300;
   }
 
   input::-webkit-input-placeholder {
@@ -185,9 +192,52 @@ body {
   :-moz-placeholder {
     color: #708B0B;
   }
+
+  button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 66px;
+    border: 0;
+    background: #FFF;
+
+    i {
+      font-size: 1.6rem;
+      color: #C1E235;
+    }
+  }
 }
 
 /* END HEADER
+================================ */
+
+
+/* NAV
+================================ */
+nav {
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 1.7em;
+
+    &:last {
+      padding-right: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #969696;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+/* END NAV
 ================================ */
 
 

@@ -444,29 +444,36 @@ a {
   color: #666; 
 }
 .book-details.open .mask .tabs { 
-  position: absolute; 
-  right: -35px; 
-  width: 35px; 
-  bottom: 75px; 
-  top: 75px; 
+  position: absolute;
+  right: -525px;
+  top: 60px;
+  width: 480px;
+  height: 45px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); */
+  transform: rotate(90deg);
+   -webkit-transform-origin: left top 0; 
+  transform-origin: left top 0;
 }
-.book-details.open .mask .tabs li {  }
+.book-details.open .mask .tabs li { 
+  height: 45px;
+  padding: 0 1.5em;
+  line-height: 45px;
+  white-space: nowrap;
+  display: inline-block;
+  font-weight: 300;
+  font-size: .9rem;
+  border-radius: 4px;
+}
 .book-details.open .mask .tabs li.tab-selected { 
-  background-color: #ccc; 
+  background: #C3EBE8;
 }
 .book-details.open .mask .tabs li a.tab-item { 
-  overflow: hidden; 
-  text-indent: -9999px; 
-  display: block; 
-  height: 100px; }
+  color: #3BA6C1;
+}
 .book-details.open .mask .tabs li a.tab-item.tab-section1 { 
-  background: url("http://placehold.it/35/ccc?text=S1") center center no-repeat; 
-}
-.book-details.open .mask .tabs li a.tab-item.tab-section2 { 
-  background: url("http://placehold.it/35/f0f8ff?text=S2") center center no-repeat; 
-}
-.book-details.open .mask .tabs li a.tab-item.tab-section3 { 
-  background: url("http://placehold.it/35/f0f8ff?text=S3") center center no-repeat; 
+  color: #3BA6C1;
 }
 .book-details.open .mask .window { 
   position: absolute; 

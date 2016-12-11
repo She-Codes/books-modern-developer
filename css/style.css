@@ -178,6 +178,362 @@ nav {
 
 /* END NAV
 ================================ */
+
+
+/* CARD SECTION
+================================ */
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+a {
+  color: #1389d3;
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid #a4d51a;
+  color: #a4d51a;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+.btn.btn-download {
+  background-color: #87cc00;
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+  padding: 10px 60px;
+}
+.book-details {
+  margin: 90px 0 30px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(150,150,150,0.5);
+}
+.book-details .book-main {
+  overflow: hidden;
+}
+.book-details .book-main .book-meta {
+  float: left;
+  width: 70%;
+  padding: 25px;
+}
+.book-details .book-main .book-meta h3 {
+  font-weight: 300;
+  font-size: 32px;
+  color: #333;
+  margin: 10px 0;
+}
+.book-details .book-main .book-meta .book-author-detail {
+  margin: 15px 0;
+}
+.book-details .book-main .book-meta .book-author-detail span {
+  color: #666;
+}
+.book-details .book-main .book-meta .book-author-detail span a {
+  
+}
+.book-details .book-main .book-meta .book-author-detail abbr {
+  color: #999;
+  margin: 10px;
+}
+.book-details .book-main .book-meta .book-info {
+  overflow: hidden;
+  margin: 30px 0 10px;
+}
+.book-details .book-main .book-meta .book-info .book-desc {
+  float: left;
+  width: 60%;
+  border-right: 2px solid #eee;
+  padding-right: 15px;
+}
+.book-details .book-main .book-meta .book-info .book-desc p {
+  color: #666;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.book-details .book-main .book-meta .book-info .book-extra {
+  float: right;
+  width: 40%;
+}
+.book-details .book-main .book-meta .book-info .book-extra .bottom-links {
+  padding: 10px 10px 0;
+}
+.book-details .book-main .book-meta .book-info .book-extra .bottom-links li {
+  border-top: 1px solid #eee;
+}
+.book-details .book-main .book-meta .book-info .book-extra .bottom-links li:first-child {
+  border-top: 0;
+}
+.book-details .book-main .book-meta .book-info .book-extra .bottom-links a {
+  overflow: hidden;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+}
+.book-details .book-main .book-meta .book-info .book-extra .bottom-links a i {
+  float: right;
+  font-size: 10.4px;
+  margin-top: 8px;
+}
+.book-details .book-main .book-cover {
+  float: right;
+  width: 30%;
+}
+.book-details .book-main .book-cover img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+.download-options,
+.buy-options {
+  overflow: hidden;
+  margin: 10px 0 50px;
+}
+.buy-options ul {
+  float: left;
+  margin-top: 10px;
+}
+.buy-options ul li {
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 18px;
+  padding-right: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.buy-options ul li img {
+    border-right: 1px solid #f5f5f5;
+  display: inline-block;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.buy-options ul li span {
+  vertical-align: middle;
+  color: #acd92f;
+}
+.bookmark {
+  float: right;
+}
+
+.slider-container { 
+  padding: 0 15px; 
+}
+.slider { 
+  margin: 0 0 15px; 
+}
+.slider .label { 
+  display: block; padding: 10px; 
+}
+.slider .label span { 
+  position: relative; 
+  font-size: 10px; 
+  padding: 3px; 
+  background-color: #999; 
+  color: #fff; left: 5px; 
+  bottom: 0px; 
+}
+.slider .label .inner-label-yell {
+  color: #c88c00;
+}
+.slider .label .inner-label-green {
+  color: #249c3d;
+}
+.slider .label .inner-label-blue {
+  color: #008ca9;
+}
+.slider .range { 
+  border-radius: 5px; 
+  background-color: #eee; 
+  height: 5px; 
+  position: relative; 
+}
+.slider .range span { 
+  position: absolute; 
+  right: 0; 
+  bottom: 15px; 
+  font-size: 12px; 
+}
+.slider .range .percentage { 
+  position: relative; 
+  height: 5px; 
+  background-color: #999; 
+}
+
+.slider .label span:after, .slider .label span:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.slider .label span:after {
+  border-color: rgba(153, 153, 153, 0);
+  border-top-color: #999;
+  border-width: 5px;
+  margin-left: -5px;
+}
+.slider .label span:before {
+  border-color: rgba(153, 153, 153, 0);
+  border-top-color: rgba(0,0,0,0);
+  border-width: 6px;
+  margin-left: -6px;
+  display: none;
+}
+
+.slider.slider-green .label, 
+.slider.slider-green .range span { 
+  color: #8fce86; 
+}
+.slider.slider-green .label span,
+.slider.slider-green .range .percentage { 
+  background-color: #8fce86; 
+}
+.slider.slider-green .label span:after, .slider .label span:before { 
+  border-top-color: #8fce86;
+}
+
+.slider.slider-blue .label, 
+.slider.slider-blue .range span { 
+  color: #4bbfdb; 
+}
+.slider.slider-blue .label span, 
+.slider.slider-blue .range .percentage { 
+  background-color: #4bbfdb; 
+}
+.slider.slider-blue .label span:after, .slider .label span:before { 
+  border-top-color: #4bbfdb;
+}
+
+.slider.slider-yellow .label, 
+.slider.slider-yellow .range span { 
+  color: #f8ca50; 
+}
+.slider.slider-yellow .label span,
+.slider.slider-yellow .range .percentage { 
+  background-color: #f8ca50 
+}
+.slider.slider-yellow .label span:after, .slider .label span:before { 
+  border-top-color: #f8ca50;
+}
+
+.book-details.open { 
+  position: relative; 
+}
+.book-details.open .mask { 
+  background-color: rgba(225, 225, 225, 0.75); 
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+  z-index: 1; 
+}
+.book-details.open .mask .close { 
+  position: absolute; 
+  right: -35px; 
+  font-size: 25pt; 
+  top: 0; 
+  color: #666; 
+}
+.book-details.open .mask .tabs { 
+  position: absolute; 
+  right: -35px; 
+  width: 35px; 
+  bottom: 75px; 
+  top: 75px; 
+}
+.book-details.open .mask .tabs li {  }
+.book-details.open .mask .tabs li.tab-selected { 
+  background-color: #ccc; 
+}
+.book-details.open .mask .tabs li a.tab-item { 
+  overflow: hidden; 
+  text-indent: -9999px; 
+  display: block; 
+  height: 100px; }
+.book-details.open .mask .tabs li a.tab-item.tab-section1 { 
+  background: url("http://placehold.it/35/ccc?text=S1") center center no-repeat; 
+}
+.book-details.open .mask .tabs li a.tab-item.tab-section2 { 
+  background: url("http://placehold.it/35/f0f8ff?text=S2") center center no-repeat; 
+}
+.book-details.open .mask .tabs li a.tab-item.tab-section3 { 
+  background: url("http://placehold.it/35/f0f8ff?text=S3") center center no-repeat; 
+}
+.book-details.open .mask .window { 
+  position: absolute; 
+  top: 0; 
+  left: 40%; 
+  bottom: 0; 
+  right: 0; 
+  background-color: #fff; 
+  z-index: 3; 
+  border: 3px solid #c3ebe8; 
+}
+.book-details.open .mask .window .search-holder { 
+  padding: 25px; 
+}
+.book-details.open .mask .window .search-holder input.search { 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  padding: 10px; 
+  font-size: 20px; 
+  width: 100%; 
+  margin-top: 10px; 
+}
+.book-details.open .mask .window .list-items { 
+  overflow: auto; 
+  position: absolute; 
+  top: 115px; 
+  bottom: 15px; 
+  right: 15px; 
+  left: 15px; 
+}
+.book-details.open .mask .window .list-items li { 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  overflow: hidden; 
+}
+.book-details.open .mask .window .list-items li span.text { 
+  float: left; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  width: 90%; 
+}
+.book-details.open .mask .window .list-items li span.text span.search-key { 
+  background-color: #d5edd2;
+}
+.book-details.open .mask .window .list-items li span.page { 
+  float: right; 
+  text-align: right; 
+}
+
+.load-more {
+  text-align: center; 
+  padding: 15px; 
+  line-height: 5; 
+  text-transform: uppercase; 
+  font-size: 1.5em; 
+  margin: 0 0 275px; 
+  font-weight: 300;
+}
+.load-more a {
+  color: #999;
+}
+
+/* END CARD SECTION
+================================ */
+
+
 /* FOOTER
 ================================ */
 footer {

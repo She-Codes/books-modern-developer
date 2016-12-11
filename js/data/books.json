@@ -36,7 +36,30 @@ books: [
 
   easyToFollowPercent: "80%",
   comprehensivePercent: "75%",
-  enoughExamplesPercent: "95%"
+  enoughExamplesPercent: "95%",
+
+  tableOfContentsSnip1: "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Marij...",
+  tableOfContentsSnip2: "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
+  tableOfContentsSnip3: "... BROWSER 12 JAVASCRIPT AND THE BROWSER 207 Networks...",
+  tableOfContentsSnip4: "... Templates 387 The Unscriptables 387 22 JAVASCRIPT...",
+  tableOfContentsSnip5: "... Multiple Promises 421 Forms and Form Fields 421 A JavaScript W...",
+  tableOfContentsSnip6: "... there, if you know where to look. One such language, JavaScript, is...",
+  tableOfContentsSnip7: "... Here is the same program in JavaScript: var total = 0, count = 1; while...",
+  tableOfContentsSnip8: "... What Is JavaScript?JavaScript was introducted in 1995 as a wa...",
+  tableOfContentsSnip9: "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Mariij...",
+  tableOfContentsSnip10: "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
+
+  tableOfContentsPageNum1: "08",
+  tableOfContentsPageNum2: "15",
+  tableOfContentsPageNum3: "19",
+  tableOfContentsPageNum4: "28",
+  tableOfContentsPageNum5: "36",
+  tableOfContentsPageNum6: "41",
+  tableOfContentsPageNum7: "53",
+  tableOfContentsPageNum8: "58",
+  tableOfContentsPageNum9: "61",
+  tableOfContentsPageNum10: "63",
+
 
 },
   {

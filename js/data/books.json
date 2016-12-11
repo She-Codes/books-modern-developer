@@ -2,6 +2,15 @@ var entireData: {
 
 siteName: "Books. Modern Developer",
 
+easyToFollowHeader: "Easy to follow",
+comprehensiveHeader: "Comprehensive",
+enoughExamplesHeader: "Enough Examples",
+
+rateTheBookHeader: "Rate the Book",
+tableOfContentsHeader: "Table of Contents",
+searchInsideHeader: "Search Inside",
+bookMarkItKicker: "Bookmark It"
+
 books: [
 
 {
@@ -9,19 +18,25 @@ books: [
   authorName: "Marijn Haverbeke",
   authorLink: "",
   authorTwitter: "",
-  publishedYear: "2015",
+  publishedYear: "Published 2015",
   edition: "2nd",
   snippetText: "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pisk up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
   Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
   bookCoverImg: "",
 
+  gumRoadPrice: "$28.40",
+  amazonPrice: "$29.65",
+  manningPrice: "$28.70",
+
+  downloadLink: "",
+
   easyToFollowFlag: "29",
   comprehensiveFlag: "06",
-  enoughExamplesFlag: "18"
+  enoughExamplesFlag: "18",
 
-  easyToFollowPercent: "80",
-  comprehensivePercent: "75",
-  enoughExamplesPercent: "95"
+  easyToFollowPercent: "80%",
+  comprehensivePercent: "75%",
+  enoughExamplesPercent: "95%"
 
 },
   {
@@ -29,19 +44,25 @@ books: [
     authorName: "Marijn Haverbeke",
     authorLink: "",
     authorTwitter: "",
-    publishedYear: "2016",
+    publishedYear: "Published 2016",
     edition: "1st",
     snippetText: "In JavaScript & JQuery renowned author Jon Duckett discards the traditional programming book template and approaches writing code in a more relevant, less intimidating way.
     Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illustrating programming in a way both instructive for newcomers and invaluable for seasoned coders.",
     bookCoverImg: "",
 
+    gumRoadPrice: "",
+    amazonPrice: "",
+    manningPrice: "",
+
+    downloadLink: "",
+
     easyToFollowFlag: "",
     comprehensiveFlag: "",
-    enoughExamplesFlag: ""
+    enoughExamplesFlag: "",
 
-    easyToFollowPercent: "80",
-    comprehensivePercent: "75",
-    enoughExamplesPercent: "95",
+    easyToFollowPercent: "80%",
+    comprehensivePercent: "75%",
+    enoughExamplesPercent: "95%",
 
     downloadLink: ""
 
@@ -51,23 +72,26 @@ books: [
     authorName: "Marijn Haverbeke",
     authorLink: "",
     authorTwitter: "",
-    publishedYear: "2016",
+    publishedYear: "Published 2016",
     edition: "4th",
     snippetText: "Build interactive, data-driven websites with the potent combination of open-source technologies and web stand-ards, even if you have only basic HTML knowledge. With this popoular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.
     By discussing JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own",
     bookCoverImg: "",
 
+    gumRoadPrice: "$26.30",
+    amazonPrice: "$24.80",
+    manningPrice: "$25.20",
+
     easyToFollowFlag: "",
     comprehensiveFlag: "",
-    enoughExamplesFlag: ""
+    enoughExamplesFlag: "",
 
-    easyToFollowPercent: "80",
-    comprehensivePercent: "75",
-    enoughExamplesPercent: "95"
+    easyToFollowPercent: "80%",
+    comprehensivePercent: "75%",
+    enoughExamplesPercent: "95%"
 
   }
 
 ]
 
 }
-

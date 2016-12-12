@@ -67,3 +67,8 @@ nikia: Completed the header and nav portion of the project
 ### Code Review and Validation
 
 leyth: Reviewed and validated `HTML`, `CSS`, and `JSON` codes.
+
+
+## Live Project 
+
+[Click Here](https://she-codes.github.io/books-modern-developer/)

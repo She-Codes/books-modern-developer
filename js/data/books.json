@@ -1,4 +1,4 @@
-var entireData: {
+{
 
 "siteName": "Books. Modern Developer",
 
@@ -27,7 +27,7 @@ var entireData: {
   "amazonPrice": "$29.65",
   "manningPrice": "$28.70",
 
-  "downloadLink": "",
+  "downloadLink1": "",
 
   "easyToFollowFlag": "29",
   "comprehensiveFlag": "06",
@@ -57,10 +57,9 @@ var entireData: {
   "tableOfContentsPageNum7": "53",
   "tableOfContentsPageNum8": "58",
   "tableOfContentsPageNum9": "61",
-  "tableOfContentsPageNum10": "63",
+  "tableOfContentsPageNum10": "63"
 
-
-},
+  },
   {
     "title": "JavaScript and JQuery: Interactive Front-End Web Developemnt",
     "authorName": "Marijn Haverbeke",
@@ -85,7 +84,7 @@ var entireData: {
     "comprehensivePercent": "75%",
     "enoughExamplesPercent": "95%",
 
-    "downloadLink": ""
+    "downloadLink2": ""
 
   },
   {

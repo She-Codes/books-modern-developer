@@ -1,117 +1,113 @@
-var entireData: {
+{
 
-siteName: "Books. Modern Developer",
+"siteName": "Books. Modern Developer",
 
-easyToFollowHeader: "Easy to follow",
-comprehensiveHeader: "Comprehensive",
-enoughExamplesHeader: "Enough Examples",
+"easyToFollowHeader": "Easy to follow",
+"comprehensiveHeader": "Comprehensive",
+"enoughExamplesHeader": "Enough Examples",
 
-rateTheBookHeader: "Rate the Book",
-tableOfContentsHeader: "Table of Contents",
-searchInsideHeader: "Search Inside",
-bookMarkItKicker: "Bookmark It"
+"rateTheBookHeader": "Rate the Book",
+"tableOfContentsHeader": "Table of Contents",
+"searchInsideHeader": "Search Inside",
+"bookMarkItKicker": "Bookmark It",
 
-books: [
+"books": [
 
 {
-  title: "Eloquent Javascript: A Modern Introduction to Programming",
-  authorName: "Marijn Haverbeke",
-  authorLink: "",
-  authorTwitter: "",
-  publishedYear: "Published 2015",
-  edition: "2nd",
-  snippetText: "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pisk up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
-  Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
-  bookCoverImg: "",
+  "title": "Eloquent Javascript: A Modern Introduction to Programming",
+  "authorName": "Marijn Haverbeke",
+  "authorLink": "",
+  "authorTwitter": "",
+  "publishedYear": "Published 2015",
+  "edition": "2nd",
+  "snippetText": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pisk up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+  "bookCoverImg": "",
 
-  gumRoadPrice: "$28.40",
-  amazonPrice: "$29.65",
-  manningPrice: "$28.70",
+  "gumRoadPrice": "$28.40",
+  "amazonPrice": "$29.65",
+  "manningPrice": "$28.70",
 
-  downloadLink: "",
+  "downloadLink1": "",
 
-  easyToFollowFlag: "29",
-  comprehensiveFlag: "06",
-  enoughExamplesFlag: "18",
+  "easyToFollowFlag": "29",
+  "comprehensiveFlag": "06",
+  "enoughExamplesFlag": "18",
 
-  easyToFollowPercent: "80%",
-  comprehensivePercent: "75%",
-  enoughExamplesPercent: "95%",
+  "easyToFollowPercent": "80%",
+  "comprehensivePercent": "75%",
+  "enoughExamplesPercent": "95%",
 
-  tableOfContentsSnip1: "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Marij...",
-  tableOfContentsSnip2: "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
-  tableOfContentsSnip3: "... BROWSER 12 JAVASCRIPT AND THE BROWSER 207 Networks...",
-  tableOfContentsSnip4: "... Templates 387 The Unscriptables 387 22 JAVASCRIPT...",
-  tableOfContentsSnip5: "... Multiple Promises 421 Forms and Form Fields 421 A JavaScript W...",
-  tableOfContentsSnip6: "... there, if you know where to look. One such language, JavaScript, is...",
-  tableOfContentsSnip7: "... Here is the same program in JavaScript: var total = 0, count = 1; while...",
-  tableOfContentsSnip8: "... What Is JavaScript?JavaScript was introducted in 1995 as a wa...",
-  tableOfContentsSnip9: "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Mariij...",
-  tableOfContentsSnip10: "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
+  "tableOfContentsSnip1": "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Marij...",
+  "tableOfContentsSnip2": "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
+  "tableOfContentsSnip3": "... BROWSER 12 JAVASCRIPT AND THE BROWSER 207 Networks...",
+  "tableOfContentsSnip4": "... Templates 387 The Unscriptables 387 22 JAVASCRIPT...",
+  "tableOfContentsSnip5": "... Multiple Promises 421 Forms and Form Fields 421 A JavaScript W...",
+  "tableOfContentsSnip6": "... there, if you know where to look. One such language, JavaScript, is...",
+  "tableOfContentsSnip7": "... Here is the same program in JavaScript: var total = 0, count = 1; while...",
+  "tableOfContentsSnip8": "... What Is JavaScript?JavaScript was introducted in 1995 as a wa...",
+  "tableOfContentsSnip9": "... EloquEnt JavaScript, 2nd Edition. Copyright © 2015 by Mariij...",
+  "tableOfContentsSnip10": "... Language 191 PART II: BROWSER Chapter 12:JavaScript and the...",
 
-  tableOfContentsPageNum1: "08",
-  tableOfContentsPageNum2: "15",
-  tableOfContentsPageNum3: "19",
-  tableOfContentsPageNum4: "28",
-  tableOfContentsPageNum5: "36",
-  tableOfContentsPageNum6: "41",
-  tableOfContentsPageNum7: "53",
-  tableOfContentsPageNum8: "58",
-  tableOfContentsPageNum9: "61",
-  tableOfContentsPageNum10: "63",
-
-
-},
-  {
-    title: "JavaScript and JQuery: Interactive Front-End Web Developemnt",
-    authorName: "Marijn Haverbeke",
-    authorLink: "",
-    authorTwitter: "",
-    publishedYear: "Published 2016",
-    edition: "1st",
-    snippetText: "In JavaScript & JQuery renowned author Jon Duckett discards the traditional programming book template and approaches writing code in a more relevant, less intimidating way.
-    Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illustrating programming in a way both instructive for newcomers and invaluable for seasoned coders.",
-    bookCoverImg: "",
-
-    gumRoadPrice: "",
-    amazonPrice: "",
-    manningPrice: "",
-
-    downloadLink: "",
-
-    easyToFollowFlag: "",
-    comprehensiveFlag: "",
-    enoughExamplesFlag: "",
-
-    easyToFollowPercent: "80%",
-    comprehensivePercent: "75%",
-    enoughExamplesPercent: "95%",
-
-    downloadLink: ""
+  "tableOfContentsPageNum1": "08",
+  "tableOfContentsPageNum2": "15",
+  "tableOfContentsPageNum3": "19",
+  "tableOfContentsPageNum4": "28",
+  "tableOfContentsPageNum5": "36",
+  "tableOfContentsPageNum6": "41",
+  "tableOfContentsPageNum7": "53",
+  "tableOfContentsPageNum8": "58",
+  "tableOfContentsPageNum9": "61",
+  "tableOfContentsPageNum10": "63"
 
   },
   {
-    title: "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
-    authorName: "Marijn Haverbeke",
-    authorLink: "",
-    authorTwitter: "",
-    publishedYear: "Published 2016",
-    edition: "4th",
-    snippetText: "Build interactive, data-driven websites with the potent combination of open-source technologies and web stand-ards, even if you have only basic HTML knowledge. With this popoular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.
-    By discussing JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own",
-    bookCoverImg: "",
+    "title": "JavaScript and JQuery: Interactive Front-End Web Developemnt",
+    "authorName": "Marijn Haverbeke",
+    "authorLink": "",
+    "authorTwitter": "",
+    "publishedYear": "Published 2016",
+    "edition": "1st",
+    "snippetText": "In JavaScript & JQuery renowned author Jon Duckett discards the traditional programming book template and approaches writing code in a more relevant, less intimidating way. Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illustrating programming in a way both instructive for newcomers and invaluable for seasoned coders.",
+    "bookCoverImg": "",
 
-    gumRoadPrice: "$26.30",
-    amazonPrice: "$24.80",
-    manningPrice: "$25.20",
+    "gumRoadPrice": "",
+    "amazonPrice": "",
+    "manningPrice": "",
 
-    easyToFollowFlag: "",
-    comprehensiveFlag: "",
-    enoughExamplesFlag: "",
+    "downloadLink": "",
 
-    easyToFollowPercent: "80%",
-    comprehensivePercent: "75%",
-    enoughExamplesPercent: "95%"
+    "easyToFollowFlag": "",
+    "comprehensiveFlag": "",
+    "enoughExamplesFlag": "",
+
+    "easyToFollowPercent": "80%",
+    "comprehensivePercent": "75%",
+    "enoughExamplesPercent": "95%",
+
+    "downloadLink2": ""
+
+  },
+  {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "authorName": "Marijn Haverbeke",
+    "authorLink": "",
+    "authorTwitter": "",
+    "publishedYear": "Published 2016",
+    "edition": "4th",
+    "snippetText": "Build interactive, data-driven websites with the potent combination of open-source technologies and web stand-ards, even if you have only basic HTML knowledge. With this popoular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5. By discussing JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own",
+    "bookCoverImg": "",
+
+    "gumRoadPrice": "$26.30",
+    "amazonPrice": "$24.80",
+    "manningPrice": "$25.20",
+
+    "easyToFollowFlag": "",
+    "comprehensiveFlag": "",
+    "enoughExamplesFlag": "",
+
+    "easyToFollowPercent": "80%",
+    "comprehensivePercent": "75%",
+    "enoughExamplesPercent": "95%"
 
   }
 

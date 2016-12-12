@@ -87,6 +87,7 @@ body {
   background: url("../images/books_header_bg.jpg") repeat-x fixed;
   padding-top: 37px;
   height: 264px; }
+  
   .site-header .wrapper {
     max-width: 668px;
     margin: 0 auto; }
@@ -167,8 +168,8 @@ nav {
   nav li {
     display: inline-block;
     padding-right: 1.7em; }
-    nav li:last {
-      padding-right: none; }
+    nav li:last-child {
+      padding-right: 0; }
   nav a {
     text-decoration: none;
     color: #969696;
@@ -233,9 +234,7 @@ a {
 .book-details .book-main .book-meta .book-author-detail span {
   color: #666;
 }
-.book-details .book-main .book-meta .book-author-detail span a {
-  
-}
+
 .book-details .book-main .book-meta .book-author-detail abbr {
   color: #999;
   margin: 10px;
@@ -451,8 +450,6 @@ a {
   width: 480px;
   height: 45px;
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg); */
   transform: rotate(90deg);
    -webkit-transform-origin: left top 0; 
   transform-origin: left top 0;

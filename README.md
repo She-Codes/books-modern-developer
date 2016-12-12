@@ -36,7 +36,7 @@ In the first part of your team project assignment, you created the HTML/CSS user
 
   3. Save the User-Submitted Data: If the application you have built has one or more forms, save all the user-submitted data to an object, and print the data to the browser console using console.log(). Print the data only when the user clicks the form submit button and only if the user has entered all the correct information. Remember, you are validating the user-entered data as per the Data Validation for Forms requirement outlined in number 2 above.
 
-Because our project did not have any forms in need of validation or user-submitted data, we included only the data object for this application. 
+**Because our project did not have any forms in need of validation or user-submitted data, we included only the data object for this application.**
 
 ## Team Workflow
 

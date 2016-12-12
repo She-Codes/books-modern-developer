@@ -42,17 +42,28 @@ In the first part of your team project assignment, you created the HTML/CSS user
 
 *Updates posted here*
 
-### Completed Footer
-Hey guys, here is what the completed footer looks like. It is not responsive. In the
-next commit, I am going to clean it up.
+- - -
+
+### Footer Section
+leyth: Worked on the footer section of the project.
 
  @wehelie
 ![](images/footer.png)
+
+- - - 
 
 ### Card Section 
 
 rulep: Worked on HTML and CSS of Card Section of project for sections: 1, 2, and 4. Currently working on Section 3. 
 
+- - - 
+
 ### Header and Nav
 
 nikia: Completed the header and nav portion of the project
+
+- - -
+
+### Code Review and Validation
+
+leyth: Reviewed and validated `HTML`, `CSS`, and `JSON` codes.
